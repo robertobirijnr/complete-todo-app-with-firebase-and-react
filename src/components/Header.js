@@ -1,5 +1,5 @@
 import React from "react";
-import Tab from "./Tab";
+import Tab from "./Tabs";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -8,17 +8,17 @@ const Header = () => {
       <div className="tabs">
         <Tab>
           <NavLink to="/" activeClassName="is-active" exact={true}>
-            Home
+            ToDo
           </NavLink>
         </Tab>
         <Tab>
-          <NavLink to="/about" activeClassName="is-active">
-            About us
+          <NavLink to="/done" activeClassName="is-active">
+            Done
           </NavLink>
         </Tab>
         <Tab>
-          <NavLink to="features" activeClassName="is-active">
-            Features{" "}
+          <NavLink to="overdue" activeClassName="is-active">
+            OverDue{" "}
           </NavLink>
         </Tab>
       </div>

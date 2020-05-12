@@ -1,21 +1,21 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Features from "../pages/Features";
+import Todo from "../pages/Todo";
+import Done from "../pages/Done";
+import Overdue from "../pages/Overdue";
 
 const Router = () => {
   return (
     <div>
       <Switch>
-        <Route path="/about">
-          <About />
+        <Route path="/overdue">
+          <Overdue />
         </Route>
-        <Route path="/features">
-          <Features />
+        <Route path="/done">
+          <Done />
         </Route>
         <Route path="/" exact={true}>
-          <Home />
+          <Todo />
         </Route>
       </Switch>
     </div>

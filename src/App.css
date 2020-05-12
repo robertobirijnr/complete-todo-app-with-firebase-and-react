@@ -20,7 +20,7 @@ body {
 .browser {
   display: flex;
   flex-direction: column;
-  background: #ffb91f;
+  background: #329ebe;
   border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   min-width: 60%;
@@ -110,9 +110,9 @@ form {
 #to-do-form input {
   background-color: rgb(27, 112, 137);
   border: 0;
-  width: 200px;
+  width: 400px;
   height: 50px;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 20px;
   font-size: 18px;
   border-radius: 10px;
@@ -132,7 +132,7 @@ form {
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color: yellowgreen;
+  background-color: #3a2081;
   cursor: pointer;
   font-weight: bolder;
   color: #ffff;

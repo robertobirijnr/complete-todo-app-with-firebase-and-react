@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Form />
         <div className="browser">
+          <Form />
           <Header />
           <div className="viewport">
             <Route />
